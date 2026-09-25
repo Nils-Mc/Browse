@@ -1,0 +1,8 @@
+name = "authorized-link-workspace"
+main = "src/worker.js"
+compatibility_date = "2026-09-24"
+
+# Publish the files in public/ as static assets with `npx wrangler deploy`.
+[assets]
+directory = "./public"
+not_found_handling = "single-page-application"
